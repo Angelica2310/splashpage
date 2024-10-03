@@ -3,7 +3,7 @@
 }
 
 .border_page {
-  border: 2px solid black;
+  border: 2px solid #ea9010;
   border-radius: 40px;
   height: 800px;
   display: flex;
@@ -11,27 +11,31 @@
   justify-content: space-evenly;
   text-align: center;
   margin-right: 80px;
+  background-color: #eaefbd;
 }
 
 h2 {
   font-size: 30px;
   font-weight: lighter;
   margin-top: 100px;
+  color: #90be6d;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 50px;
   font-weight: lighter;
+  color: #ea9010;
 }
 
 h3 {
   font-size: 30px;
   font-weight: lighter;
   color: #909090;
-  inline-size: 350px;
+  inline-size: 250px;
   overflow-wrap: break-word;
-  width: 370px;
-  margin-left: 530px;
+  width: 70%;
+  margin-left: 200px;
+  color: #37371f;
 }
 
 .main_page {
@@ -43,8 +47,9 @@ h3 {
   font-size: 28px;
   line-height: 0.5em;
   text-align: left;
+  color: #90be6d;
 }
 
 footer {
-  margin-bottom: -50px;
+  margin-bottom: -30px;
 }
