@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.border_page {
+  border: 2px solid black;
+  border-radius: 40px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-right: 80px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #909090;
+  inline-size: 350px;
+  overflow-wrap: break-word;
+  width: 370px;
+  margin-left: 530px;
+}
+
+.main_page {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main_page p {
+  font-size: 28px;
+  line-height: 0.5em;
+  text-align: left;
+}
+
+footer {
+  margin-bottom: -50px;
+}
